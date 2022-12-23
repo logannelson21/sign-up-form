@@ -35,17 +35,21 @@
 
         <div class="input">
             <label for="phone">Phone Number</label>
-            <input type="text" id="phone" name="phone">
+            <input type="text" id="phone" name="phone" required minlength="9" maxlength="9">
         </div>
 
         <div class="input">
             <label for="password">Password</label>
-            <input type="text" id="password" name="password">
+            <input type="text" id="password" name="password" required>
         </div>
 
         <div class="input">
             <label for="conpass">Confirm Password</label>
-            <input type="text" id="conpass" name="conpass">
+            <input type="text" id="conpass" name="conpass" required>
+        </div>
+
+        <div class="button">
+            <button type="submit">Create Account</button>
         </div>
     </form>
 </body>
