@@ -1,0 +1,67 @@
+/* Initial Set-up */
+
+:root{
+    --color: #e6007e;
+    --txt: rgb(185, 185, 185)
+}
+
+main {
+    display: block;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(Norse-Bold.otf);
+}
+
+
+body {
+    margin: 0;
+}
+
+* {
+    font-family: 'Norse-Bold';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--txt);
+}
+
+/* Top left */
+
+.content {
+    width: 100vw;
+    height: 100vw;
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+    position: relative;
+    top: 20vh;
+    gap: 10px;
+    padding: 9px;
+   
+}
+
+.content, .logo {
+    display: flex;
+    flex-wrap: row wrap;
+}
+
+
+.pic {
+    background-image: url(cyberpunk.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vh;
+}
+
+/* Top Right */
+
